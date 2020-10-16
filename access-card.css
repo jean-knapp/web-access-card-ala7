@@ -1,7 +1,11 @@
+body {
+	background: #999;
+}
+
 .access-card--outer-border {
 	width: 5.4cm;
 	height: 8.6cm;
-	background: #000;
+	background: #FFF;
 	padding: 0.2cm;
 	border-radius: 0.2cm;
 	font-family: "Times new Roman";
@@ -15,6 +19,14 @@
 	width: 1.5cm;
 	height: 0.4cm;
 	border-radius: 0.2cm;
+}
+
+.access-card--text-black {
+	color: #000;
+}
+
+.access-card--text-upper {
+	text-transform: uppercase;
 }
 
 .access-card--header {
@@ -48,6 +60,7 @@
 	border-radius: 0.3cm;
 	text-align: center;
 	margin-bottom: 0.2cm;
+	border: 1px solid #000;
 }
 
 .access-card--identification {
@@ -102,6 +115,12 @@
 	width: 100%;
 }
 
+.access-card--code-vehicle {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 0.1cm;
+}
+
 .access-card--sector {
 	font-size: 8pt;
 	font-weight: bold;
@@ -109,4 +128,32 @@
 	padding-bottom: 0.15cm;
 	padding-left: 0.15cm;
 	padding-right: 0.15cm;	
+}
+
+.access-card--stripe {
+	line-height: 0.4cm;
+}
+
+#stripe_white {
+	background: #FFF;
+}
+
+#stripe_red {
+	background: #F00;
+}
+
+#stripe_yellow {
+	background: #FF0;
+}
+
+#stripe_green {
+	background: #0F0;
+}
+
+#stripe_cyan {
+	background: #0FF;
+}
+
+#stripe_blue {
+	background: #00F;
 }
