@@ -66,12 +66,12 @@ $blue_stripe = true;
 				Placa: <?=$licenseplate?>
 			</div>
 		</div>
-		<div class="access-card--stripe" id="stripe_white">&nbsp;</div>
-		<div class="access-card--stripe" id="stripe_red">&nbsp;</div>
-		<div class="access-card--stripe" id="stripe_yellow">&nbsp;</div>
-		<div class="access-card--stripe" id="stripe_green">&nbsp;</div>
-		<div class="access-card--stripe" id="stripe_cyan">&nbsp;</div>
-		<div class="access-card--stripe" id="stripe_blue">&nbsp;</div>
+		<div class="access-card--stripe" id="stripe_white" style="<?=(!$white_stripe ? "visibility: hidden" : "")?>">&nbsp;</div>
+		<div class="access-card--stripe" id="stripe_red" style="<?=(!$red_stripe ? "visibility: hidden" : "")?>">&nbsp;</div>
+		<div class="access-card--stripe" id="stripe_yellow" style="<?=(!$yellow_stripe ? "visibility: hidden" : "")?>">&nbsp;</div>
+		<div class="access-card--stripe" id="stripe_green" style="<?=(!$green_stripe ? "visibility: hidden" : "")?>">&nbsp;</div>
+		<div class="access-card--stripe" id="stripe_cyan" style="<?=(!$cyan_stripe ? "visibility: hidden" : "")?>">&nbsp;</div>
+		<div class="access-card--stripe" id="stripe_blue" style="<?=(!$blue_stripe ? "visibility: hidden" : "")?>">&nbsp;</div>
 		<div class="access-card--footer">
 			<div class="access-card--code access-card--code-vehicle">
 				<img src="<?=$barcode_url?>" id="barcode1" />
