@@ -165,3 +165,22 @@ body {
 #stripe_blue {
 	background: #00F;
 }
+
+.access-card--role2 {
+	height: 2cm;
+	margin-left: -0.2cm;
+	margin-right: -0.2cm;
+	line-height: 2cm;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-top: 1cm;
+}
+
+.access-card--sector2 {
+	height: 1.5cm;
+	line-height: 1.5cm;
+	font-size: 12pt;
+	text-align: center;
+	
+}
