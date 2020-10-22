@@ -12,6 +12,7 @@ $role = "Comandante da Esquadrilha Negro";
 $logo_url = "img/logo_ala7.png";
 $photo_url = "img/photo.jpg";
 $sector = "ESD";
+$barcode_url = "img/barcode.png";
 
 // Use the JsBarcode script to modify #barcode1
 
@@ -75,7 +76,7 @@ $sector = "ESD";
 						<?=$sector?>
 					</div>
 				</div>
-				<img src="img/barcode.png" id="barcode1" />
+				<img src="<?=$barcode_url?>" id="barcode1" />
 			</div>
 		</div>
 
