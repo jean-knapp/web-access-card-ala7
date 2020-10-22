@@ -8,6 +8,7 @@ $type = "Passageiro Automóvel";
 $model = "Citroen C4L A THP Tend";
 $licenseplate = "NAY4784";
 $logo_url = "img/logo_ala7.png";
+$barcode_url = "img/barcode_vehicle.jpg";
 
 $white_stripe = true;
 $red_stripe = true;
@@ -15,6 +16,7 @@ $yellow_stripe = true;
 $green_stripe = true;
 $cyan_stripe = true;
 $blue_stripe = true;
+
 
 // Use the JsBarcode script to modify #barcode1
 
@@ -72,7 +74,7 @@ $blue_stripe = true;
 		<div class="access-card--stripe" id="stripe_blue">&nbsp;</div>
 		<div class="access-card--footer">
 			<div class="access-card--code access-card--code-vehicle">
-				<img src="img/barcode.png" id="barcode1" />
+				<img src="<?=$barcode_url?>" id="barcode1" />
 			</div>
 		</div>
 
